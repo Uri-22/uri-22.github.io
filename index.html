@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Restaurant-tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Footer-Basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body style="height: 655px;">
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Capital One Summit Challenge</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+
+        </div>
+    </nav>
+    <div id="promo" style="height: 594px;">
+        <div class="jumbotron">
+            <h1>Restaurant Tool</h1>
+            <p>A tool to aid in your search for the restaurant of your choice</p>
+            <p><a class="btn btn-primary" role="button">Learn more</a></p>
+        </div>
+    </div>
+    <div class="container text-center" style="height: 60px;">
+        <h1 style="padding: 7px;"></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 text-center"><i class="fa fa-search-minus"></i>
+                <h2 class="text-center"><strong>Have a Restaurant in Mind?</strong></h2>
+                <p>Search for a specific restaurant that you have in mind?</p><a href="/restaurants">Search&nbsp;<i class="fa fa-angle-right"></i> &nbsp;&nbsp;</a></div>
+            <div class="col-4 text-center"><i class="fa fa-bars"></i>
+                <h2 class="text-center"><strong>Have a Cuisine in mind?</strong></h2>
+                <p>Search for resturants with a certain type of&nbsp;cuisine?</p><a href="/restaurants">Search&nbsp;<i class="fa fa-angle-right"></i> &nbsp;&nbsp;</a></div>
+            <div class="col-4 text-center"><i class="fa fa-th"></i>
+                <h2 class="text-center"><strong>View the top&nbsp;Restaurants?</strong><br></h2>
+                <p class="text-center">View the top three rated restaurants in your specific area?</p><a class="text-left" href="/top">Search&nbsp;<i class="fa fa-angle-right"></i> &nbsp;&nbsp;</a></div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/capitalone/"><i class="icon ion-social-instagram"></i></a><a href="https://www.linkedin.com/in/uriel-sejas/"><i class="icon ion-social-linkedin"></i></a><a href="https://twitter.com/CapitalOne"><i class="icon ion-social-twitter"></i></a>
+                <a
+                    href="https://www.facebook.com/capitalone/"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.capitalone.com/">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="https://www.capitalone.com/privacy">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2017</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/demoJS.js') }}"></script>
+</body>
+
+</html>

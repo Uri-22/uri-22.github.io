@@ -1,0 +1,32 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(/static/img/y2.jpg) no-repeat;
+  background-size: cover;
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgb(255,255,255,0.75);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fa.fa-search-minus {
+  font-size: 40px;
+  text-align: center;
+}
+
+.fa.fa-th {
+  font-size: 40px;
+}
+
+.icon.ion-minus-circled {
+  font-size: 40px;
+}
+
+.fa.fa-bars {
+  font-size: 40px;
+}
+
